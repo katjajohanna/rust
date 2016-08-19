@@ -24,5 +24,6 @@ before_script: |
   export PATH=$HOME/.local/bin:$PATH
 
 script:
+  cd practice &&
   travis-cargo build &&
   travis-cargo test
